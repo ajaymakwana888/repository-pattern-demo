@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\repositories;
+namespace App\Repositories;
 
 
 use App\Models\Business;

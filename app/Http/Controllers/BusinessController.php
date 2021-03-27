@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\BusinessValidRequest;
 use App\Models\Business;
-use App\repositories\BusinessRepositoryInterface;
+use App\Repositories\BusinessRepositoryInterface;
 use Illuminate\Http\Request;
 
 class BusinessController extends Controller

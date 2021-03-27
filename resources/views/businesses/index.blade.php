@@ -10,13 +10,12 @@
                 <a href="{{route('businesses.create')}}" class="btn btn-success"><i class="fas fa-plus-circle" ></i></a>
             </div>
         </div>
+        @if($msg = Session::get('success'))
+            <div class="alert alert-success">
+                {{$msg}}
+            </div>
+        @endif
     </div>
-
-    @if($msg = Session::get('success'))
-        <div class="alert alert-success">
-           {{$msg}}
-        </div>
-    @endif
 
     <div class="container pt-3">
         <table class="table table-bordered dataTable">

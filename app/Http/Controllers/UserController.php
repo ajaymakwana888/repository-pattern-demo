@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\repositories\UserRepositoryInterface;
+use App\Repositories\UserRepositoryInterface;
 
 class UserController extends Controller
 {
